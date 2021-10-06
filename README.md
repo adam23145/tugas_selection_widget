@@ -6,3 +6,5 @@ Terdapat beberapa Selection Widget, antara lain:
 1. ListView
 2. Spinner
 3. AutoCompleteTextView
+4. Recycle View
+
