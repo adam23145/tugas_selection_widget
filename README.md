@@ -28,13 +28,13 @@ Terdapat beberapa Selection Widget, antara lain:
 ![WhatsApp Image 2021-10-06 at 20 48 04](https://user-images.githubusercontent.com/81203366/136215941-0b9bae9c-8b39-4cfb-ad60-5d726109f18a.jpeg)
 
 
-# list menu
+# list menu (menggunakan listview)
 ## setelah mengklik login akan masuk ketampilan list menu dimana list menu ini menggunakan list view yang di tampilkan hanya movie yang berisi list movie nantinya
 
 ![WhatsApp Image 2021-10-06 at 20 52 29](https://user-images.githubusercontent.com/81203366/136216328-25d9a487-97aa-44b3-b40a-b622a047a75f.jpeg)
 
 # list movie
-### tampilan inti ketika menklik pada list menu movie maka muncul list movie
+### tampilan inti ketika menklik pada list menu movie maka muncul list movie menggunakan recycle view
 ![WhatsApp Image 2021-10-06 at 20 57 33](https://user-images.githubusercontent.com/81203366/136217373-e06421b1-115f-467b-bfa1-2ce29f5276e8.jpeg)
 
 # muncul deskripsi moovie
