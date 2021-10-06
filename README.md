@@ -33,5 +33,15 @@ Terdapat beberapa Selection Widget, antara lain:
 
 ![WhatsApp Image 2021-10-06 at 20 52 29](https://user-images.githubusercontent.com/81203366/136216328-25d9a487-97aa-44b3-b40a-b622a047a75f.jpeg)
 
+# list movie
+### tampilan inti ketika menklik pada list menu movie maka muncul list movie
+![WhatsApp Image 2021-10-06 at 20 57 33](https://user-images.githubusercontent.com/81203366/136217373-e06421b1-115f-467b-bfa1-2ce29f5276e8.jpeg)
+
+# muncul deskripsi moovie
+
+
+![WhatsApp Image 2021-10-06 at 20 59 16](https://user-images.githubusercontent.com/81203366/136217630-e1f234d1-14a3-4057-ae4a-68893ec61356.jpeg)
+
+
 
 
