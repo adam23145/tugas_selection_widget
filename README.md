@@ -18,3 +18,12 @@ Terdapat beberapa Selection Widget, antara lain:
 
 ![WhatsApp Image 2021-10-06 at 20 45 33](https://user-images.githubusercontent.com/81203366/136215530-7ba3b331-9c2b-4df5-a1ff-0b0ef44a1db8.jpeg)
 
+**Select Gender**
+select gender ini menggunakan spinner untuk menampilkan dropdown nya
+![WhatsApp Image 2021-10-06 at 20 46 15](https://user-images.githubusercontent.com/81203366/136215859-e6085669-138d-4113-a465-7ad32c9ff0c3.jpeg)
+
+**untuk kota**
+kota ini menggunakan Auto complete text view
+![WhatsApp Image 2021-10-06 at 20 48 04](https://user-images.githubusercontent.com/81203366/136215941-0b9bae9c-8b39-4cfb-ad60-5d726109f18a.jpeg)
+
+
