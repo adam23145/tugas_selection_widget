@@ -23,8 +23,8 @@ Terdapat beberapa Selection Widget, antara lain:
 ## select gender ini menggunakan spinner untuk menampilkan dropdown nya
 ![WhatsApp Image 2021-10-06 at 20 46 15](https://user-images.githubusercontent.com/81203366/136215859-e6085669-138d-4113-a465-7ad32c9ff0c3.jpeg)
 
-#untuk kota
-##kota ini menggunakan Auto complete text view
+# untuk kota
+## kota ini menggunakan Auto complete text view
 ![WhatsApp Image 2021-10-06 at 20 48 04](https://user-images.githubusercontent.com/81203366/136215941-0b9bae9c-8b39-4cfb-ad60-5d726109f18a.jpeg)
 
 
@@ -32,4 +32,6 @@ Terdapat beberapa Selection Widget, antara lain:
 ## setelah mengklik login akan masuk ketampilan list menu dimana list menu ini menggunakan list view yang di tampilkan hanya movie yang berisi list movie nantinya
 
 ![WhatsApp Image 2021-10-06 at 20 52 29](https://user-images.githubusercontent.com/81203366/136216328-25d9a487-97aa-44b3-b40a-b622a047a75f.jpeg)
+
+
 
