@@ -14,6 +14,7 @@ import android.widget.Toast;
 
 public class DaftarMenu extends AppCompatActivity {
 
+    //membuat variable
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +22,8 @@ public class DaftarMenu extends AppCompatActivity {
         setContentView(R.layout.activity_daftar_menu);
         ListView listView = (ListView) findViewById(R.id.listView);
 
+        //Bawah ini fungsinya untuk ketika klik button back pada
+        //layout activity_Daftarmenu maka akan otomatis pindah ke login.class
         button = findViewById(R.id.buttonback);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -31,9 +34,13 @@ public class DaftarMenu extends AppCompatActivity {
             }
         });
 
+        //difungsikan untuk mengisi menu
         String[] menu = {"Movie"};
+        //adapter
         ArrayAdapter<String> myAdapter =  new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, menu);
         listView.setAdapter(myAdapter);
+        //difungsikan untuk menampilkan apa yang di klik menggunakan toast dan
+        //menggunakan intent pindah ke MainActivity
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
