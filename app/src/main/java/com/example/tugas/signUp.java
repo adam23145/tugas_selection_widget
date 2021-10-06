@@ -15,9 +15,11 @@ import android.widget.Toast;
 
 public class signUp extends AppCompatActivity {
 
+    //memasukkan nilai kota ke cities
     private static final String[] CITIES = new String[]{
             "Jember","Pasuruan","Probolinggo","Malang","Bondowoso","Situbondo","Surabaya","Madiun","Blitar"};
 
+    //membuat variable
     Button button;
     Spinner spinner;
     TextView textView;
@@ -30,7 +32,7 @@ public class signUp extends AppCompatActivity {
         ArrayAdapter<String> halo =  new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,CITIES);
         ediText.setAdapter(halo);
 
-
+        //untuk masuk ke layout login
         textView = findViewById(R.id.loginText);
         textView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -40,7 +42,7 @@ public class signUp extends AppCompatActivity {
                 finish();
             }
         });
-
+        //untuk masuk ke menu login ketika memencet button
         button = findViewById(R.id.buttonSignUp);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -51,9 +53,7 @@ public class signUp extends AppCompatActivity {
             }
         });
 
-
-
-
+        //untuk memunculkan nama kota yang di pilih
         spinner = findViewById(R.id.textLayoutLokasi);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.Kota, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);

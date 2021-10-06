@@ -2,13 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
+    //menampilkan item tittle
     <TextView
         android:id="@+id/tvTittle"
         android:text="Tittle"
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    //menampilkan item rating
     <TextView
         android:id="@+id/tvRating"
         android:layout_toRightOf="@+id/tvTittle"
@@ -16,6 +17,7 @@
         android:layout_marginLeft="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    //menampilkan item release date
     <TextView
         android:id="@+id/tvReleaseDate"
         android:layout_below="@+id/tvTittle"

@@ -3,6 +3,9 @@ package com.example.tugas;
 import android.os.Parcel;
 import android.os.Parcelable;
 
+//menggunakan parcelable dengan menginstall di setting plugin difungsikan untuk memungkikan
+//pengembang untuk membuat serial kelas sehingga propertinya akan dengan mudah menstrasfer antara aktvitas satu
+//ke aktivitas lainya
 public class Movies implements Parcelable{
     private  String tittle;
     private  String genre;
@@ -11,6 +14,7 @@ public class Movies implements Parcelable{
     private  String description;
     private  String releasedate;
 
+    //untuk memasukkan nilai tittle dll
     public Movies(String tittle, String genre, String director, double rating, String description, String releasedate) {
         this.tittle = tittle;
         this.genre = genre;

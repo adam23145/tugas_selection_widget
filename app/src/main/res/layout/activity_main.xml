@@ -7,8 +7,32 @@
     android:orientation="vertical"
     android:padding="15dp"
     tools:context=".MainActivity">
-
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        //membuat dalam atau isi dari toolbar
+        <LinearLayout
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            //pembuatan button back
+            <Button
+                android:id="@+id/buttonback2"
+                android:background="@drawable/back"
+                android:layout_width="30dp"
+                android:layout_height="30dp"/>
+            //spasi antara widget dengan area kanan
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    //membuat recyclre view
     <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>

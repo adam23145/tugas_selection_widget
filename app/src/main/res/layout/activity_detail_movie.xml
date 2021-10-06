@@ -6,13 +6,14 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     tools:context=".DetailMovieActivity">
-
+    //membuat tittle dari movie nya
     <TextView
         android:id="@+id/tvTittle"
         android:text="Tittle"
         style="@style/TextAppearance.AppCompat.Title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    //membuat rating
     <TextView
         android:id="@+id/tvRating"
         android:layout_toRightOf="@+id/tvTittle"
@@ -20,13 +21,14 @@
         android:layout_marginLeft="3dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+    //membuat tanggal rilis
     <TextView
         android:id="@+id/tvReleaseDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tvTittle"
         android:text="Tanggal Rilis" />
+    //membuat separator atau sekat
     <TextView
         android:id="@+id/separator"
         android:text="|"
@@ -36,7 +38,7 @@
         android:layout_marginRight="5dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+    //membuat genre film
     <TextView
         android:id="@+id/tvGenre"
         android:layout_toRightOf="@+id/separator"
@@ -44,13 +46,14 @@
         android:text="Genre : Action"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
-
+    //membuat director
     <TextView
         android:id="@+id/tvDirector"
         android:text="Nama Director"
         android:layout_below="@+id/tvReleaseDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
+    //membuat deskripsi
     <TextView
         android:id="@+id/tvDescription"
         android:text="Deskripsi Movie"

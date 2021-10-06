@@ -10,15 +10,18 @@ import android.widget.TextView;
 
 public class Login extends AppCompatActivity {
 
+    //Membuat variable
     Button buttonLogin;
     TextView textViewSignUp;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //agar nilai dari button sesuai dengan layout maka masukkan id dari layout
         buttonLogin = findViewById(R.id.buttonLogin);
         textViewSignUp = findViewById(R.id.signUpText);
 
+        //untuk memndihkan layout Login ke Daftar menu
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -28,6 +31,8 @@ public class Login extends AppCompatActivity {
             }
         });
 
+        //text view ini merupakan text dan text nya dibuat agar bisa di klik untuk masuk
+        //ke layout signUp
         textViewSignUp.setOnClickListener(new View.OnClickListener() {
 
             @Override

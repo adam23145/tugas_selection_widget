@@ -9,6 +9,7 @@ import android.view.View;
 
 public class SplashScreen extends AppCompatActivity {
 
+    //splashscreen untuk halaman depan menunjukan nama aplikasi
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,6 +28,7 @@ public class SplashScreen extends AppCompatActivity {
                 startActivity(new Intent(SplashScreen.this, Login.class));
                 finish();
             }
-        }, 2000);
+
+        }, 2000);//merupakan delay yang di inginkan
     }
 }
