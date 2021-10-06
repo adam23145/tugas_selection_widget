@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">tugas</string>
+    <string name="login">login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="toSignUp">Belum Punya Akun ? SignUp</string>
+    <string name="signup">SignUp</string>
+    <string name="fullname">fullname</string>
+    <string name="email">email</string>
+    <string name="toLogin">Sudah punya akun ? LogIn</string>
+    <string name="welcome">welcome</string>
+
+    <string-array name="Kota">
+        <item>Select Gender</item>
+        <item>Laki-laki</item>
+        <item>Perempuan</item>
+    </string-array>
+
+</resources>
